@@ -9,7 +9,7 @@ interface IBeverageProvideE {
 class GreenTeaE implements IBeverageProvideE {
     greenText(text: string) { 
         console.log(chalk.green(text));
-    }
+    };
     AddMaterial() { 
         this.greenText('加入綠茶包');
     };
